@@ -38,8 +38,7 @@ id    address                                                                   
 ```
 
 # Predecessor AdList work for Pi-hole (v4.x)
-I also maintained a v4.x AdList for older versions of Pi-hole but at this point (1/2022) it's considered deprecated since I don't maintain any v4.x Pi-hole gear any longer. If you're looking for that list it's here:
-- https://gist.github.com/slmingol/f6b1d5ab852cdd1a2f4a499c3010db2d
+I also maintained a [v4.x AdList](https://gist.github.com/slmingol/f6b1d5ab852cdd1a2f4a499c3010db2d) for older versions of Pi-hole but at this point (1/2022) it's considered deprecated since I don't maintain any v4.x Pi-hole gear any longer. If you're looking for that list it's [here](https://gist.github.com/slmingol/f6b1d5ab852cdd1a2f4a499c3010db2d).
 
 
 # References
