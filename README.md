@@ -37,9 +37,13 @@ id    address                                                                   
 ...
 ```
 
+# Predecessor AdList work for Pi-hole (v4.x)
+I also maintained a v4.x AdList for older versions of Pi-hole but at this point (1/2022) it's considered deprecated since I don't maintain any v4.x Pi-hole gear any longer. If you're looking for that list it's here:
+- https://gist.github.com/slmingol/f6b1d5ab852cdd1a2f4a499c3010db2d
+
 
 # References
 - [For adlist sqlite3 schema docs](https://docs.pi-hole.net/database/gravity/?h=adlist#adlist-table-adlist)
 - [Main pi-hole website](https://pi-hole.net/)
 - [pi-hole github repo]()https://github.com/pi-hole/pi-hole)
-
+- [Pretty CSV viewing on the Command Line](https://www.stefaanlippens.net/pretty-csv.html)
