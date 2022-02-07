@@ -37,6 +37,40 @@ id    address                                                                   
 ...
 ```
 
+
+# Adding & Deleting from AdList
+I currently don't include any aliaes to "manage" the AdList but you can construct the necessary `sqlite3` commands from this thread titled: [How do I add list via cli](https://discourse.pi-hole.net/t/how-do-i-add-list-via-cli/43733) in the Pi-hole Discourse. Specifically:
+
+
+### Add
+```
+$ sudo sqlite3 /etc/pihole/gravity.db "INSERT INTO adlist (address, enabled, comment) VALUES ('https://domain.com/blocklist.txt', 1, 'comment');"
+```
+
+### Delete
+```
+$ TBD
+```
+
+
+# 3rd Party Things
+Lastly if you're looking for even more tooling the community has a wealth of tools to help manage AdList and analyze your list's effectiveness/usefulness.
+
+- [pihole5-list-tool](https://github.com/jessedp/pihole5-list-tool)
+
+    > This tool provides bulk operations to manage your Pi-hole 5 Allow lists and Block/Ad lists.
+
+- [Which adlists do you really need? Here is the answer (Script)](https://discourse.pi-hole.net/t/which-adlists-do-you-really-need-here-is-the-answer-script/32181)
+- [Pihole Adlist Tool](https://github.com/yubiuser/pihole_adlist_tool)
+
+    > This script tries to provide you with a bunch of information that enables you to decide which adlists you need based on your browsing behavior. It does that by matching your browsing history (FTL's querylog) with your current adlist configuration (gravity database) generating a list of domains that you have visited in the past and which would have been blocked if your current adlist configuration would have been in place back then. In a second step the scripts takes this list and attributes each domain to the adlists it is on (similar to what pihole -q does). The final output is a table of all your adlists with the corresponding number of covered domains (domains that you have visited and that would have been blocked if only this particular adlist would have been used).
+
+- [Delete all adlists and whitelists in one step possible](https://discourse.pi-hole.net/t/delete-all-adlists-and-whitelists-in-one-step-possible/39522)
+
+    > I run pi-hole (Pi-hole v5.1.2) on a raspberry pi since a couple of months. Basically I'm pretty satisfied.  Just wonder if there's a way to delete
+
+
+
 # Predecessor AdList work for Pi-hole (v4.x)
 I also maintained a [v4.x AdList](https://gist.github.com/slmingol/f6b1d5ab852cdd1a2f4a499c3010db2d) for older versions of Pi-hole but at this point (1/2022) it's considered deprecated since I don't maintain any v4.x Pi-hole gear any longer. If you're looking for that list it's [here](https://gist.github.com/slmingol/f6b1d5ab852cdd1a2f4a499c3010db2d).
 
