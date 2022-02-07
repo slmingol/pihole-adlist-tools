@@ -60,14 +60,21 @@ Lastly if you're looking for even more tooling the community has a wealth of too
 
     > This tool provides bulk operations to manage your Pi-hole 5 Allow lists and Block/Ad lists.
 
+
 - [Which adlists do you really need? Here is the answer (Script)](https://discourse.pi-hole.net/t/which-adlists-do-you-really-need-here-is-the-answer-script/32181)
 - [Pihole Adlist Tool](https://github.com/yubiuser/pihole_adlist_tool)
 
     > This script tries to provide you with a bunch of information that enables you to decide which adlists you need based on your browsing behavior. It does that by matching your browsing history (FTL's querylog) with your current adlist configuration (gravity database) generating a list of domains that you have visited in the past and which would have been blocked if your current adlist configuration would have been in place back then. In a second step the scripts takes this list and attributes each domain to the adlists it is on (similar to what pihole -q does). The final output is a table of all your adlists with the corresponding number of covered domains (domains that you have visited and that would have been blocked if only this particular adlist would have been used).
 
+
 - [Delete all adlists and whitelists in one step possible](https://discourse.pi-hole.net/t/delete-all-adlists-and-whitelists-in-one-step-possible/39522)
 
     > I run pi-hole (Pi-hole v5.1.2) on a raspberry pi since a couple of months. Basically I'm pretty satisfied.  Just wonder if there's a way to delete
+
+
+- [Update Pi-hole's lists from remote sources](https://opensourcelibs.com/lib/pihole-updatelists)
+
+    > When using remote lists like [this](https://v.firebog.net/hosts/lists.php?type=tick) or [this](https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt) it's a hassle to manually check for changes and update - this script will do that for you!
 
 
 
