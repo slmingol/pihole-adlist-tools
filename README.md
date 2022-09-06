@@ -47,6 +47,16 @@ I currently don't include any aliaes to "manage" the AdList but you can construc
 $ sudo sqlite3 /etc/pihole/gravity.db "INSERT INTO adlist (address, enabled, comment) VALUES ('https://domain.com/blocklist.txt', 1, 'comment');"
 ```
 
+-or-
+
+...WIP...
+```
+for i in $(awk -F, '{print $2}' ~/adlist.csv);do 
+   B="'$i'"; 
+   sqlite3 /etc/pihole/gravity.db "INSERT INTO adlist (address, enabled, comment) VALUES ("$i", 1, 'comment');";
+done
+```
+
 ### Delete
 ```
 $ TBD
