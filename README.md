@@ -98,3 +98,4 @@ I also maintained a [v4.x AdList](https://gist.github.com/slmingol/f6b1d5ab852cd
 - [pi-hole github repo]()https://github.com/pi-hole/pi-hole)
 - [Pretty CSV viewing on the Command Line](https://www.stefaanlippens.net/pretty-csv.html)
 - [Markdown Guide - Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+- [DNS Blocklists - For a better internet!](https://github.com/hagezi/dns-blocklists)
