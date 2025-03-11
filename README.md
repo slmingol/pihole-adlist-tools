@@ -1,5 +1,5 @@
-# Pi-hole (v5.x+) AdList + Mgmt Helpers
-Repo includes my latest up to date AdList (.csv) along with several helper commands (Bash aliases) I use to add/export/delete AdList URLs to Pi-hole's v5.x SQLite DB.
+# Pi-hole (v5.x & v6.x+) AdList + Mgmt Helpers
+Repo includes my latest up to date AdList (.csv) along with several helper commands (Bash aliases) I use to add/export/delete AdList URLs to Pi-hole's v5.x & v6.x SQLite DBs.
 
 
 # Aliases
